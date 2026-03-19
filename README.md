@@ -16,6 +16,8 @@ Best model selection and cluster structure are explored in the notebook, includi
 
 ![plot](images/elbow_curve.png)
 
+![plot](images/Final_cluster.png)
+
 ## Models
 
 - **Baseline:** K-means on RFM features (k=4)
