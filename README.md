@@ -7,12 +7,11 @@ concentration, enabling targeted marketing actions.
 
 ## Models
 - **Baseline:** K-means on RFM features (k=4)
-- **Enhanced:** K-means on RFM + Shannon Entropy-based 
-  category concentration (k=4)
+- **Enhanced:** K-means on RFM + category concentration (k=4)
 
 ## Key Techniques
 - Winsorization for outlier handling
-- Log transformation + StandardScaler for feature prep
+- Log transformation + Scaling (using standardscaler) for feature prep
 - Elbow method for cluster selection
 - Shannon Entropy for category behaviour feature engineering
 
